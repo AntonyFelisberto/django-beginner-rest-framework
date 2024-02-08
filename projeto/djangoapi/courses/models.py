@@ -6,5 +6,5 @@ class Course(models.Model):
     language = models.CharField(max_length=100)
     price = models.CharField(max_length=10)
 
-    def __str__(self) -> str:
-        return 
+    def __str__(self):
+        return self.name
